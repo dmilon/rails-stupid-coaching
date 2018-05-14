@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col-6">
+      <h1 class="text-center">Stupid Coaching</h1>
+      <div class="dialog_box">
+        <p>
+          <%= @question %>
+        </p>
+        <p><em>- You</em></p>
+      </div>
+      <div class="dialog_box answer">
+        <p class="message">
+          <%= @answer %>
+        </p>
+        <p><em>- Your coach</em></p>
+      </div>
+      <%=  link_to "Ask a new question", "/ask"%>
+    </div>
+    <div class="col">
+    </div>
+  </div>
